@@ -1,2 +1,2 @@
-0 string HOLBERTON Holberton data
-!:mime Holberton
+echo -e "0 string SCHOOL\tSchool data file" > school.mgc
+file -C -m school.mgc

@@ -1,2 +1,2 @@
 #!/bin/bash
-rowe
+tr "A" "Z" | tr "c" "e"

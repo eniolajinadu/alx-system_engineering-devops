@@ -1,0 +1,31 @@
+BLOG POST: What happens when you type google.com in your browser and press Enter?
+
+The number one search engine is used over 5 billion times daily and about 2 trillion annually, mind you the average Google search is done with at least 50,000 results in less than a second (I'm a Statistics student, so numbers, it's so cool.) 
+
+But what happens when you type the website "google.com" on your browser and the popular Doodle pops up celebrating Children's Day or your national day?
+
+*DNS Request*
+Websites don't have physical addresses, but they have domain names like "google.com" When you type the URL, your computer doesn't understand it. It needs an address it can recognize. This is where the Domain Name System (DNS) comes in. It acts like a translator, converting the domain name into an IP address, a unique numerical label for every device on the network.
+
+*TCP/IP*
+With the IP address in hand, your computer initiates communication with Google's server. To ensure a reliable exchange, it uses the Transmission Control Protocol/Internet Protocol (TCP/IP) suite. This protocol ensures your data is broken down into manageable packets, sent over the internet, and reassembled correctly at Google's end.
+
+*Firewall*
+Before reaching Google, your data might pass through a firewall, a security system that acts like a gatekeeper. It scans the incoming data packets and only allows those that meet specific criteria to pass through, protecting Google's servers from malicious attacks.
+
+*HTTPS/SSL*
+When you see the padlock icon and "https" in the address bar, it signifies secure communication. This is where Hypertext Transfer Protocol Secure (HTTPS) and Secure Sockets Layer (SSL) come into play. They encrypt the data exchange between you and Google, making it unreadable to anyone who might intercept it, protecting your privacy and security.
+
+*Web Server*
+The data packet finally reaches the web server. This software understands the request and is responsible for retrieving the website's content (HTML, CSS, JavaScript). It then packages it back into a format your browser can understand.
+
+*Application Server*
+For dynamic websites like Google, there might be another layer - the application server. This software sits behind the web server and handles complex tasks like generating search results based on your query or personalizing your experience based on your login.
+
+*Database*
+Many websites rely on data stored in a database. In Google's case, this database might hold information on websites, user accounts, search indexes, and more. The application server interacts with the database to retrieve the necessary information to fulfill your request.
+
+*Your Google Search Page*
+The response from the web and application server travels back to your computer, where your browser interprets the received data and displays the familiar Google search page on your screen.
+
+It is a lot of work, right? It's mind-boggling to think this is all done in a fraction of a second.

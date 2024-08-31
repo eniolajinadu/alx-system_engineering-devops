@@ -2,7 +2,6 @@
 # This script is for displaying "Best School"  10 times
 
 w=1
-while [$w -le 10]; do
+for ($w -le 10 w++); do
 	echo "Best School";
-	((w++))
 done

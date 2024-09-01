@@ -1,14 +1,16 @@
 #!/usr/bin/env bash
 # This script is for displaying "Best School"  10 times but at the 9th iteration, it prints "Hi"
 
+#!/bin/bash
+
 w=1
-while [ "$w" -le 10 ]; do
-    if [ "$w" -eq 4 ]; then
-        echo "bad luck"
-    elif [ "$w" -eq 8 ]; then
-        echo "good luck"
-    else
-        echo "Best School"
-    fi
+
+while [ "$w" -le 20 ]; do
+    case "$w" in
+        4) echo "bad Luck from China" ;;
+        9) echo "bad Luck from Japan" ;;
+        17) echo "bad Luck from Italy" ;;
+        *) echo "Best School" ;;
+    esac
     ((w+=1))
 done

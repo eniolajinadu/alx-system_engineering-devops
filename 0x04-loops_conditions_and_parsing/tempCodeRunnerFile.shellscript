@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script is for displaying "Best School"  10 times but at the 9th iteration, it prints "Hi"
+
+w=1
+while [ "$w" -lt 20 ]; do
+    if [ "$w" -eq 4 ]; then
+        echo "bad luck from China"
+    elif [ "$w" -eq 9 ]; then

@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 # This script is for displaying "Best School"  10 times
 
-until(w=1; w<=10; w++) do
-
+w=1
+until [ $w -gt 10 ]; do
+    ((w+=1))
+    echo "Best School";
+done

@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script is for displaying all files at the working directory
+
+for ((w=1; w<=1; w++)); do
+    ls $pwd
+done

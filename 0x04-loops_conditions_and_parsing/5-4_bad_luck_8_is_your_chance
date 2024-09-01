@@ -2,7 +2,7 @@
 # This script is for displaying "Best School"  10 times but at the 9th iteration, it prints "Hi"
 
 w=1
-while [ "$w" -lt 10 ]; do
+while [ "$w" -le 10 ]; do
     if [ "$w" -eq 4 ]; then
         echo "bad luck"
     elif [ "$w" -eq 8 ]; then
